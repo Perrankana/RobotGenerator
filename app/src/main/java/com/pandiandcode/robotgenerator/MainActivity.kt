@@ -1,7 +1,7 @@
 package com.pandiandcode.robotgenerator
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
@@ -17,11 +17,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         setupView()
+        setupClickListener()
     }
 
     private fun setupView() {
         image = findViewById(R.id.image)
         input = findViewById(R.id.input)
         button = findViewById(R.id.button)
+    }
+
+    private fun setupClickListener() {
+        button.setOnClickListener {
+            
+        }
     }
 }
