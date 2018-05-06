@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
             Picasso.get()
                     .load(imageUrl)
                     .fit()
-                    .into(image, , object : Callback {
+                    .into(image, object : Callback {
                         override fun onSuccess() {
                             Toast.makeText(this@MainActivity, "WEEEEE", Toast.LENGTH_SHORT).show()
                         }
