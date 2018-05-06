@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import com.squareup.picasso.Picasso
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,6 +35,11 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             val inputText = input.text
             val imageUrl = "$ROBOT_HASH_URL$inputText"
+
+            Picasso.get()
+                    .load(imageUrl)
+                    .fit()
+                    .into(image)
         }
     }
 }
