@@ -8,6 +8,10 @@ import android.widget.ImageView
 
 class MainActivity : AppCompatActivity() {
 
+    companion object {
+        private const val ROBOT_HASH_URL = "https://robohash.org/"
+    }
+
     lateinit var image: ImageView
     lateinit var input: EditText
     lateinit var button: Button
@@ -28,7 +32,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupClickListener() {
         button.setOnClickListener {
-            
+            val inputText = input.text
+            val imageUrl = "$ROBOT_HASH_URL$inputText"
         }
     }
 }
