@@ -44,8 +44,9 @@ If you have any questions or need any help you can reach out to:
 
 Women Who Code Barcelona: [barcelona@womenwhocode.com](mailto:barcelona@womenwhocode.com)
 
-Rocío Ortega: [@perrankana](https://github.com/perrankana)
 
-Valeria: [@valllllll2000](https://github.com/valllllll2000)
+Valeria Rogatchevskikh: [@valllllll2000](https://twitter.com/valllllll2000)
 
-Elisa: [@](https://github.com/)
+Rocío Ortega: [@perrankana](https://twitter.com/perrankana)
+
+Elisa: [@ElisaDGM](https://twitter.com/ElisaDGM)
