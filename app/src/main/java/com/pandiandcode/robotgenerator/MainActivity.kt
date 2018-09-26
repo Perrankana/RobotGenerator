@@ -39,20 +39,7 @@ class MainActivity : AppCompatActivity() {
             val inputText = input.text
             val imageUrl = "$ROBOT_HASH_URL$inputText"
 
-            Picasso.get()
-                    .load(imageUrl)
-                    .fit()
-                    .into(image, object : Callback {
-                        override fun onSuccess() {
-                            Toast.makeText(this@MainActivity, "WEEEEE", Toast.LENGTH_SHORT).show()
-                        }
-
-                        override fun onError(e: Exception?) {
-                            Toast.makeText(this@MainActivity, "Noooo", Toast.LENGTH_SHORT).show()
-                            e?.printStackTrace()
-                        }
-
-                    })
+            image.loadUrl(imageUrl)
         }
     }
 }
